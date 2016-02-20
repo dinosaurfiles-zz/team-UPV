@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', 'homeController@home');
+Route::get('/registerpatient', 'patientController@register');
+Route::get('/registermedicalpersonnel', 'medical_personnelController@register');
+Route::get('/loginpatient', 'patientController@login');
+Route::get('/loginmedicalpersonnel', 'medical_personnelController@login');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
