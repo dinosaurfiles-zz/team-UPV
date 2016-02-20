@@ -16,6 +16,7 @@ Route::get('/registerpatient', 'patientController@register');
 Route::get('/registermedicalpersonnel', 'medical_personnelController@register');
 Route::get('/loginpatient', 'patientController@login');
 Route::get('/loginmedicalpersonnel', 'medical_personnelController@login');
+Route::get('/testloc', 'medical_personnelController@dashboard');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

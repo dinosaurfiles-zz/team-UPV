@@ -17,6 +17,7 @@ class CreateMedicalPersonnelTable extends Migration
             $table->string('medical_personnel_first_name',255);
             $table->string('medical_personnel_last_name',255);
             $table->string('medical_personnel_contact_no',10);
+            $table->text('medical_personnel_latlng');
             $table->text('medical_personnel_work_address');
             $table->text('medical_personnel_details');
             $table->index('medical_personnel_id');

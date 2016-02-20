@@ -15,4 +15,8 @@ class medical_personnelController extends Controller
     public function login() {
         return view('medical_personnel.login');
     }
+    
+    public function dashboard() {
+        return view('medical_personnel.dashboard');
+    }
 }
